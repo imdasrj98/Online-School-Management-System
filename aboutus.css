@@ -1,0 +1,21 @@
+.ex1
+{
+  border: 1px solid #44d43b;
+  outline-style: solid;
+  outline-color:#44d43b;
+  background-color: grey;
+  color:#ffa500;
+}
+
+.ex2
+{
+  border: 1px solid #44d43b ;
+  outline-style:soild;
+  outline-color:#44d43b;
+  background-color: #DCDCDC;
+  color:0000FF;
+  }
+  body
+  {
+	  background-color:#787878;
+  }

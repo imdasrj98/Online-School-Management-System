@@ -1,0 +1,22 @@
+.ex1
+{
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color:black;
+  background-color:white;
+  color:#ffa500;
+}
+ body
+  {
+	  background-color:pink;
+  }
+
+tb td
+{
+  font-size: 20px;
+}
+
+a:link
+{
+  color:black;
+}

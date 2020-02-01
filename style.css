@@ -1,0 +1,335 @@
+#login_body{
+  margin : 0;
+  padding: 0;
+  background: url('C:/xampp/htdocs/iwp/images/log.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+h1{
+  position: relative;
+  top:5%;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.login_tab{
+  opacity: 0.93;
+  width : 320px;
+  height : 440px;
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 40px 20px;
+}
+
+.login_avatar{
+  opacity: 1.0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top:-25px;
+  left: calc(50% - 40px);
+}
+
+.login_tab h1{
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.login_tab p{
+  padding: 0px;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.login_tab input[type="text"], input[type="password"]{
+  width: 100%;
+  margin-bottom: 25px;
+  border: 0px;
+  border-bottom: 2px solid white;
+  background: transparent;
+  outline: none;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+.login_tab input[type="submit"]{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border:0;
+  background-color: green;
+  outline: none;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+.login_tab input[type="submit"]:hover{
+  cursor: pointer;
+  background: blue;
+}
+
+.login_tab a{
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+.login_tab a:hover{
+  color: blue;
+}
+
+#signup_body{
+  margin: 0;
+  padding: 0;
+  background: url('./images/signup_background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.signup_tab{
+  display: grid;
+  background-color: transparent;
+  grid-template-columns: 60% 40%;
+  grid-gap: 0px;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.signup_tab div{
+  background-color: black;
+  color: white;
+  opacity: 0.90;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 100px;
+  padding: 5px;
+}
+
+.signup_tab .signup_info{
+  background-color: transparent;
+  margin: 50px;
+  padding: 50px;
+}
+
+.signup_tab .signup_info h2{
+  position: relative;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.signup_tab .signup_details{
+  margin: 0;
+  padding: 30px 30px;
+}
+
+.signup_tab .signup_details h2{
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+
+.signup_tab .signup_details p{
+  padding: 0px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.signup_tab .signup_details input[type="text"], input[type="password"], input[type="email"]{
+  width: 100%;
+  margin-bottom: 25px;
+  border: 0px;
+  border-bottom: 2px solid white;
+  background: transparent;
+  outline: none;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+.signup_tab .signup_details input[type="submit"]{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border:0;
+  background-color: green;
+  outline: none;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+.signup_tab .signup_details input[type="submit"]:hover{
+  cursor: pointer;
+  background: blue;
+}
+
+#main_body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.user_avatar{
+  opacity: 1.0;
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+  border: 2px solid green;
+  position: absolute;
+  left: calc(100% - 80px);
+  top: 5px;
+}
+
+.nav_sidebar{
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.nav_menu{
+  padding:8px 16px;
+  width:auto;
+  border:none;
+  display:block;
+  font-size: 36px;
+  color: grey;
+  white-space:normal;
+}
+
+.nav_menu:hover{
+  color: white;
+}
+
+.nav_button{
+  margin: 0;
+  padding: 6px;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.heading{
+  background-color: black;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  border: 2px solid black;
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  padding: 5px;
+  height: 56px;
+  width: calc(100% - 42px - 80px - 25px);
+}
+
+.nav_bar{
+    width: 42px;
+    height: 6px;
+    background-color: #333;
+    margin: 8px 0;
+    transition: 0.4s;
+}
+
+.mail_list{
+  top: 80px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #fcf3cf;
+}
+
+.column_list{
+  margin: 2px;
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  background-color: #e5e8e8;
+  text-align: left;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.column_list h2{
+  margin: 2px;
+  padding: 5px;
+  text-align: left;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#compose_body{
+  margin:0px;
+  padding:0px;
+  font-weight: bold;
+  font-style: sans-serif;
+}
+
+.message_details{
+  margin: 30px 10px;
+  padding: 10px;
+  background-color: #FCF3CF
+}
+
+.message_details input[type="text"]{
+  width: 100%;
+  margin: 5px;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  outline: none;
+  height: 50px;
+  color: black;
+  font-style: sans-serif;
+  font-size: 15px;
+}
+
+.message_details textarea{
+  text-align: left;
+  width:  100%;
+  height: 420px;
+  border: 2px solid black;
+  margin: 5px ;
+  padding: 10px;
+  font-style: sans-serif;
+  font-size: 20px;
+  wrap: soft;
+}
+
+.message_details input[type="submit"]{
+  width: 20%;
+  margin:5px;
+  border:0;
+  background-color: grey;
+  outline: none;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+}
