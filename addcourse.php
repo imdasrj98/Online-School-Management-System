@@ -106,27 +106,17 @@ require_once('adminlogin.php');
 
 <body>
 <div class="signup_tab">
-  <h1><u><font color="#0A639C"><center>Enter Administrator Detail</center></font></u></h1>
+  <h1><u><font color="#0A639C"><center>Enter Course Detail</center></font></u></h1>
   <br><br>
   <div class="signup_details">
     <h2>Enter your details here</h2>
     <form action="addascheck.php" method="post" >
       <p>ID</p>
       <input type="text" name="id" placeholder="Enter ID" required>
-      <p>Name</p>
-      <input type="text" name="name" placeholder="Enter name" required>
-      <p>Email</p>
-      <input type="text" name="email" placeholder="Enter email" required>
-      <p>phone</p>
-      <input type="text" name="phone" placeholder="Enter phone" required>
-      <p>Cabin</p>
-      <input type="text" name="cabin" placeholder="Enter cabin" required>
-      <p>Address</p>
-      <input type="text" name="address" placeholder="Enter address" required>
-      <p>Password</p>
-      <input type="password" name="password" id="pass" placeholder="Enter password" required>
-      <p>Confirm password</p>
-      <input type="password" name="conf_passwd" id="cpass" placeholder="Re-enter the password" required>
+      <p>Course Name</p>
+      <input type="text" name="name" placeholder="Enter Course name" required>
+      <p>Course Details</p>
+      <input type="text" name="email" placeholder="Enter details" required>
       <input type="submit" name="signup" value="CONFIRM" onclick="return isMatch();">
     </form>
   </div>

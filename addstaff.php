@@ -106,11 +106,11 @@ require_once('adminlogin.php');
 
 <body>
 <div class="signup_tab">
-  <h1><u><font color="#0A639C"><center>Enter Administrator Detail</center></font></u></h1>
+  <h1><u><font color="#0A639C"><center>Enter Staff Detail</center></font></u></h1>
   <br><br>
   <div class="signup_details">
     <h2>Enter your details here</h2>
-    <form action="addascheck.php" method="post" >
+    <form action="#" method="post" >
       <p>ID</p>
       <input type="text" name="id" placeholder="Enter ID" required>
       <p>Name</p>

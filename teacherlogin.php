@@ -6,6 +6,7 @@ require_once('allmenu.html');
 <html>
 
 <head>
+  <link rel="stylesheet" href="indexstyle.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
   body {
@@ -14,15 +15,15 @@ require_once('allmenu.html');
 
   .sidenav {
     height: 80%;
-    width: 250px;
+    width: 200px;
     position: fixed;
     z-index: 1;
-    top: 192;
-    left: 8;
-    bottom: 100;
+    top: 70;
+    height: auto;
     background-color: #000000;
     overflow-x: hidden;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .sidenav a {
@@ -76,8 +77,8 @@ if(isset($_POST))
     <a href="teacherdetail.php">Profile</a>
     <a href="study.php">Study Material</a>
     <a href="student.php">View Student</a>
-    <a href="librarystatus.php">Library</a>
-    <a href="noticeboard.php">View Notice</a>
+    <a href="libraryteacher.php">Library</a>
+    <a href="noticeteacher.php">View Notice</a>
     <a href="logout.php">Log Out</a></td>
 </div>
 <?php

@@ -56,9 +56,8 @@ require_once('adminlogin.php')
 <body>
 
 <div class="sidenav1">
-  <a href="addteacher.php">Add Teacher</a>
-  <a href="modifyteacher.php">Update Teacher Details</a>
-  <a href="processupdate.php">Process Update Request</a>
+  <a href="addstaff.php">Add Staff</a>
+  <a href="modifystaff.php">Update Staff Details</a>
 </div>
 
 

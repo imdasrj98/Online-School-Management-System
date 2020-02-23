@@ -19,13 +19,15 @@ require_once('administratorlogin.php')
     position: fixed;
     z-index: 1;
     top: 192;
-    left: 258;
+    left: 200;
     margin-bottom: auto;
     background-color: #000000;
     overflow-x: hidden;
     padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
   }
-
+  
   .sidenav1 a {
     padding: 6px 6px 6px 32px;
     text-decoration: none;

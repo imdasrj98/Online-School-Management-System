@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="DGS Public School">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="author" content="Debayan Sourav Geeta">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DGS Public School</title>
+
+        <link rel="icon" href="Images/school3.ico">
+        <link rel="stylesheet" href="indexstyle.css">
+        <style>
+
+        </style>
+
+        <script>
+            function closeLogin()
+            {
+                document.getElementById('id01').style.display='none';
+            }
+
+            function closeSignup()
+            {
+                document.getElementById('id01').style.display='block';
+            }
+        </script>
+
+
+    </head>
+    <body>
+        <div id="div100">
+            <div id="div40">
+                <img id="logo" src="Images/logo2.png" alt="logo" width="140px" height="100px">
+
+                <h1>
+                    DGS PUBLIC SCHOOL
+                </h1>
+            </div>
+            <div id="div60">
+                <ul id="nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <div class="dropdown">
+                        <li><span><a href="About">ABOUT US</a></span>
+                            <div class="dropdown-content">
+                                <p><a href="">Introduction</a></p>
+                                <p><a href="">Our Vision and Mission</a></p>
+                                <p><a href="">Awards</a></p>
+                                <p><a href="">Curriculum</a></p>
+                                <p><a href="">Our Philosophy</a></p>
+
+                            </div>
+                        </li></div>
+
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="Staffs">STAFFS</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                    <li><button class="open-button" type="button" onclick="closeSignup()">LOGIN</button></li>
+                </ul>
+            </div>
+        </div>
+        <div id="id01" class="modal">
+
+            <form class="modal-content-login animate" action="logincheck.php" method="post">
+
+                <div class="container1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancel-button">&#10799;</button>
+                    <h1 class="heading" align=center>Login to Big Fat Belly</h1>
+
+                    <input class="textfield-top" type="text" placeholder="Email ID/ Mobile" name="userid" required>
+                    <input class="textfield-bottom" type="password" placeholder="Enter Password" name="password" required>
+
+                    <button type="submit" class="login-button">LOGIN</button><br>
+
+                    <div class="equal-spacing-content">
+                        <a align=center href=""><p id="forgot-password">Forgot password?</p></a>
+                        <p class="smaller" align=center>New user? <span class="sign-up"><a href="javascript:closeLogin()">Sign up</a></span></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="slidesection">
+            <div class="slidetext">
+                <h1 id="wf">Welcome To School!</h1>
+                <h2 id="fb">Search your query!</h2>
+
+                <form>
+                    <div class="form-box">
+                        <input type="text" id="rn" class="search-field location" placeholder="Search Faculty">
+                        <input type="text"  id="lc" class="search-field location" placeholder="What's your query">
+                    </div>
+                </form>
+                <a href="#" class="searchbutton" onclick="f1()">search</a>
+
+            </div>
+        </div>
+
+        <div class="footer2">
+
+            <div class="footerleft">
+                <a href="Images/logo2.png" class="logo" title="School Logo" ></a>
+                <ul class="sociallinks">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank" title="facebook">
+                            <img class="links" src="fb.png" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" title="twitter">
+                            <img class="links" src="twitter.png" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" title="youtube">
+                            <img class="links" src="utube321.png" alt="YouTube">
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank" title="instagram">
+                            <img class="links" src="insta.png" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com" target="_blank" title="linkedin">
+                            <img class="links" src="linkedin.png" alt="linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.whatsapp.com" target="_blank" title="Whatsapp">
+                            <img class="links" src="whatsapp.png" alt="whatsapp">
+                        </a>
+                    </li>
+                    <li class="text">Stay Connected</li>
+                </ul>
+            </div>
+
+            <div class="footerright">
+                <a href="#" id="pagetop">Top of Page</a>
+            </div>
+
+        </div>
+        <div class="footer">
+            HOME - ABOUT US - GALLERY - STAFFS - CONTACT US - LOG IN<br><br>&copy; <script> document.write(new Date().getFullYear())
+            </script> DGS PUBLIC SCHOOL, KOLKATA. ALL RIGHTS RESERVED | PRIVACY POLICY | TERMS OF SERVICE
+        </div>
+
+    </body>
+</html>

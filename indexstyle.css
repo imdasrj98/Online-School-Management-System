@@ -1,0 +1,487 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:"poppins",sans-serif;
+        background-image: linear-gradient(to bottom left, #1c87c9, #ffcc00);
+        /*                background-image: radial-gradient(to bottom left, #1c87c9, #ffcc00);*/
+    }
+    #div100
+    {
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        height: 90px;
+        z-index: 3;
+    }
+
+    #logo
+    {
+        float: left;
+        height: 90px;
+        width: 140px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #div40
+    {
+        width: 40%;
+        float: left;
+        color:indianred;
+    }
+
+    #div60
+    {
+        width: 60%;
+        float: right;
+        text-align: center;
+    }
+    #nav
+    {
+        float: left;
+        padding: 0;
+        margin-top: -5px;
+        list-style: none;
+    }
+
+    #nav li
+    {
+        float: left;
+        margin-top: 25px;
+        margin-right: 10px;
+
+    }
+    #nav li a
+    {
+        display: block;
+        padding: 8px 16px;
+        font-size: 16pt;
+        color: wheat;
+        border-right: 1px solid gray;
+    }
+    #nav li a:hover
+    {
+        color: red;
+        background-color: oldlace;
+        border: 0.05em solid darkgray;
+
+    }
+    #nav li a:active
+    {
+        color: darkorange;
+        font-size: 24px;*/
+    }
+
+
+
+    @keyframes slide{
+        0%{
+            background-image: linear-gradient(#ff871f,black),url("Images/kids1.jpg");
+            background-blend-mode:multiply;
+        }
+        20%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids2.jpg");
+            background-blend-mode:multiply;
+        }
+        20.01%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids3.jpg");
+            background-blend-mode:multiply;
+        }
+        40%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids4.jpg");
+            background-blend-mode:multiply;
+        }
+        40.01%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids5.jpg");
+            background-blend-mode:multiply;
+        }
+        60%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids6.jpg");
+            background-blend-mode:multiply;
+        }
+        60.01%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids7.jpg");
+            background-blend-mode:multiply;
+        }
+        80%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids8.jpg");
+            background-blend-mode:multiply;
+        }
+        80.01%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids9.jpg");
+            background-blend-mode:multiply;
+        }
+        100%{
+            background-image:linear-gradient(#ff871f,black),url("Images/kids10.jpg");
+            background-blend-mode:multiply;
+        }
+
+    }
+
+    .dropdown {
+        position:relative;
+        display: inline;
+    }
+    .dropdown-content {
+        border:1px;
+        display:none;
+        position: absolute;
+        background-color:#1d1a1a;
+        min-width:120px;
+        max-width: 142px;
+        padding: 0;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content{
+        display:block;
+    }
+
+
+    .searchbutton{
+        margin:20px;
+        display:inline-block;
+        background-color:#1d1a1a;
+        text-decoration:none;
+        color:#324fbd;
+        width: 180px;
+        height: 30px;
+        /*                height: 20px;*/
+        padding:20px 20px;
+        border-radius:50%;
+        font-size:20px;
+        letter-spacing:4px;
+        transition:all 0.4s;
+        font-weight:bold;
+    }
+
+    .searchbutton:hover{
+        background-color:gold;
+        color:black;
+    }
+
+
+    #slidesection{
+
+        display:flex;
+        /*                justify-content: space-between;*/
+        justify-content:center;
+        width:100%;
+        height:800px;
+        /*                -webkit-background-size: cover;*/
+/*                                -moz-background-size: cover;*/
+        background-size:cover;
+        animation: slide 30s infinite;
+        transition:all 0.4s;
+        position: relative;
+        z-index: 1;
+        top: 91px;
+    }
+
+    .slidetext{
+        color: gainsboro;
+        text-align:center;
+        text-transform: uppercase;
+
+    }
+
+    .slidetext h1{
+        font-family:Lato;
+        font-weight:600;
+        letter-spacing:4px;
+        font-size:100px;
+        word-spacing: 5px;
+        padding: 20px;
+
+
+    }
+
+    .slidetext h2{
+        font-family:Helvetica;
+        letter-spacing:5px;
+        word-spacing: 5px;
+        margin:10px;
+        padding: 10px;
+    }
+
+
+    .search-field
+    {
+        height:40px;
+        width:300px;
+        padding:10px;
+        border:none;
+        /*                transition: background 0.6s linear;*/
+        border-radius:25px;
+        outline:none;
+        font-size: 18px;
+        opacity:0.9;
+        text-align:left;
+        margin:5px;
+        margin-right: 20px;
+    }
+
+    .footer {
+
+        left: 0;
+        top: 800px;
+        position: relative;
+        bottom: 0;
+        width: 99%;
+        /*                height: 100px;*/
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    .sociallinks
+    {
+        line-height: 30px;
+    }
+
+    .sociallinks li
+    {
+        float: left;
+        /*                border: 1px solid black;*/
+        display: inline-block;
+        list-style: none;
+        padding-bottom: 0;
+        margin-right: 15px;
+    }
+
+    .footerleft
+    {
+        float: left;
+        position: relative;
+        max-width: 100%;
+    }
+
+    .links
+    {
+        height: 40px;
+        width: 45px;
+    }
+
+    .footerright
+    {
+        font-size: 24px;
+        padding-top: 20px;
+        float: right;
+        font-family: cursive;
+        /*                scroll-behavior: smooth;*/
+    }
+
+    .footer2
+    {
+        width: 99%;
+        background-color:dimgray;
+        position: relative;
+        display: inline-block;
+        line-height: 10px;
+        border: 1px solid black;
+        top: 800px;
+        /*                align-items: center;*/
+        /*                display: flex;*/
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .text
+    {
+        font-family: Lato;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        background-color: coral;
+        padding: 3px;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 4;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.8);
+        padding-top: 40px;
+    }
+
+    .modal-content-login {
+        background-color: #fefefe;
+        margin: 8% auto 15% auto;
+        border: 1px solid #888;
+        width: 400px;
+    }
+
+    .modal-content-signup {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto;
+        border: 1px solid #888;
+        width: 400px;
+    }
+
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+    }
+
+    @keyframes animatezoom {
+        from {transform: scale(0)}
+        to {transform: scale(1)}
+    }
+
+
+    /*Cancel Button*/
+
+
+
+    .cancel-button {
+        color: black;
+        margin-left:92%;
+        margin-top: -30px;
+        margin-bottom: 20px;
+        padding: 4px 8px;
+        font-size: 34px;
+        border: none;
+        background-color: white;
+    }
+
+    .cancel-button:hover {
+        opacity: 0.8;
+    }
+
+    .login-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px 20px;
+        margin: 30px 0 25px 0;
+        border: none;
+        cursor: pointer;
+        width: 320px;
+        font-size: 14px;
+        border-radius: 4px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .login-button:hover {
+        color: white;
+    }
+
+
+    .container1 {
+        padding: 40px;
+    }
+
+    .heading {
+        margin-bottom: 25px;
+        font-weight: normal;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+
+
+
+    /*Textfield Styling*/
+
+    .textfield-top {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+
+        width: 320px;
+        padding: 12px 20px;
+        display: block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 14px;
+        margin: 0;
+
+    }
+
+    .textfield-middle {
+        border-top: 0 !important;
+    }
+
+    .textfield-bottom {
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top: 0 !important;
+
+        width: 320px;
+        padding: 12px 20px;
+        display: block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .form{
+        width: 320px;
+        padding: 12px 20px;
+        display: block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    #forgot-password {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .login-button:hover {
+        color: white;
+    }
+
+
+    /*Bottom mini button for Login and Signup*/
+
+    .sign-up {
+        font-size: 12px;
+    }
+
+    .sign-up a:visited {
+        color: firebrick;
+    }
+
+    .sign-up a {
+        color: firebrick;
+    }
+
+    .sign-up a:hover {
+        opacity: 0.8;
+    }
+
+
+
+
+    .open-button {
+        background-color: black;
+        color: wheat;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        border: none;
+        cursor: pointer;
+        text-decoration: underline;
+        font-family: lato;
+        font-size: 23px;
+    }
+
+    .open-button:hover
+    {
+        color: red;
+        background-color: oldlace;
+        border: 0.05em solid darkgray;
+
+    }
+    .open-button :active
+    {
+        color: darkorange;
+        font-size: 24px;
+    }
