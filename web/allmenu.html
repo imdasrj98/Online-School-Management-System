@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
     <meta charset="UTF-8">
     <meta name="description" content="DGS Public School">
     <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -10,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>DGS Public School</title>
     <link rel="icon" href="img/school3.ico">
     <link rel="import" href="abc.css">
     <script>
@@ -40,7 +38,7 @@
                 <li class="w3-small"><a href="index.php"><i class="fa fa-home"></i>HOME</a></li>
 
                 <div class="dropdown">
-                    <li><span><a href="mainAboutus.html">ABOUT US</a></span>
+                    <li><span><a href="#">ABOUT US</a></span>
                         <div class="dropdown-content">
                             <p><a href="knowleskc.php">Our School</a></p>
                             <p><a href="location.php">Location</a></p>
@@ -60,17 +58,14 @@
     </div>
     <div id="id1" class="login">
 
-        <form class="login-content animate" action="/action_page.php" method="post">
+        <form class="login-content animate" action="logincheck.php" method="post">
 
             <div class="container1">
                 <button type="button" onclick="document.getElementById('id1').style.display='none'" class="cancel-button">&#10799;</button>
                 <h1 class="heading">Login here</h1>
-
-                <input class="textfield-top" type="text" placeholder="Enter Login ID" name="username" required>
+                <input class="textfield-top" type="text" placeholder="Enter Login ID" name="userid" required>
                 <input class="textfield-bottom" type="password" placeholder="Enter Password" name="password" required>
-
-                <button type="submit" class="login-button">LOGIN</button><br>
-
+                <input type="submit" class="login-button">LOGIN</button><br>
                 <div class="equal-spacing-content">
                     <a align="center"><p id="forgot-password">Forgot password?</p></a>
                 </div>

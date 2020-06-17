@@ -12,13 +12,13 @@ require_once('allmenu.html');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
-        <title>DGS Public School</title>
+        <title><?php echo "DGS Public School"; ?></title>
         <link rel="icon" href="img/school3.ico">
     </head>
     <body>
         <div id="slidesection">
             <div class="slidetext">
-                <h1>Welcome To School!</h1>
+                <h1>Welcome To DGS School!</h1>
                 <h2>Search your query!</h2>
                 <form>
                     <div class="form-box">

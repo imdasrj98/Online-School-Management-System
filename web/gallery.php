@@ -1,207 +1,217 @@
-<?php
-        require_once("allmenu.html");
-?>
-
+<div class="div2">
+    <?php
+    require_once("allmenu.html");
+    ?>
+</div>
 <html>
-<head>
-       <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <!--viewport is added to make the website responsive for mobiles-->
         <meta name="keywords" content="HTML,CSS,PHP">
         <meta name="author" content="DGS PUBLIC SCHOOL">
         <meta name="description" content="Best schools in India">
 
-<style>
-body {
-  font-family: Arial;
-  margin: 0;
-}
+        <style>
+            .div2
+            {
+                top: -10px;
+            }
 
-* {
-  box-sizing: border-box;
-}
 
-img {
-  vertical-align: middle;
-}
+            .div1
+            {
+                top: 90px;
+                position: relative;
+            }
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
+            .h1slide
+            {
+                text-align: center;
+                padding: 20px;
+                background-color: white;
+                border: 1px solid black;
+            }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+            .img
+            {
+                margin-top: -20px;
+                width: 100% !important;
+                vertical-align: middle;
+            }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
+            body {
+                font-family: Arial;
+                margin: 0;
+            }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+            * {
+                box-sizing: border-box;
+            }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+            /* Position the image container (needed to position the left and right arrows) */
+            .container {
+                position: relative;
+            }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+            /* Hide the images by default */
+            .mySlides {
+                display: none;
+            }
 
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
+            /* Add a pointer when hovering over the thumbnail images */
+            .cursor {
+                cursor: pointer;
+            }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+            /* Next & previous buttons */
+            .prev,
+            .next {
+                cursor: pointer;
+                position: absolute;
+                top: 40%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+            }
 
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
+            /* Position the "next button" to the right */
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
 
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
 
-.active,
-.demo:hover {
-  opacity: 1;
-}
-</style>
-</head>
-<body bgcolor="pink">
+            /* Number text (1/3 etc) */
+            .numbertext {
+                color: black;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
 
-<h2 style="text-align:center">Slideshow Gallery</h2>
+            /* Container for image text */
+            .caption-container {
+                text-align: center;
+                background-color: #222;
+                padding: 2px 16px;
+                color: wheat;
+            }
 
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="./Images/1.jfif" style="width:100%">
-  </div>
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="./Images/2.jfif" style="width:100%">
-  </div>
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
 
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="./Images/3.jfif" style="width:100%">
-  </div>
+            }
 
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="./Images/4.jfif" style="width:100%">
-  </div>
+            /* Six columns side by side */
+            .column {
+                float: left;
+                width: 16.66%;
+            }
 
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="./Images/5.jfif" style="width:100%">
-  </div>
+            /* Add a transparency effect for thumnbail images */
+            .demo {
+                opacity: 0.6;
+            }
 
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="./Images/6.jfif" style="width:100%">
-  </div>
+            .active,
+            .demo:hover {
+                opacity: 1;
+            }
+        </style>
 
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
 
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
+    </head>
+    <body>
+        <div class="div1">
+            <h1 class="h1slide">Our Gallery</h1>
 
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="./Images/1.jfif" style="width:100%" onclick="currentSlide(1)" alt="Juniors Classroom">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./Images/2.jfif" style="width:100%" onclick="currentSlide(2)" alt="Seniors Classroom">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./Images/3.jfif" style="width:100%" onclick="currentSlide(3)" alt="School Bus">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./Images/4.jfif" style="width:100%" onclick="currentSlide(4)" alt="Students">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./Images/5.jfif" style="width:100%" onclick="currentSlide(5)" alt="Playground">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./Images/6.jfif" style="width:100%" onclick="currentSlide(6)" alt="Swimming Pool">
-    </div>
-  </div>
-</div>
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img class="img" src="./Images/1.jfif">
+                </div>
 
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img class="img" src="./Images/2.jfif">
+                </div>
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img class="img" src="./Images/3.jfif">
+                </div>
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img class="img" src="./Images/4.jfif">
+                </div>
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-</body>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img class="img" src="./Images/5.jfif">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img class="img" src="./Images/6.jfif">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        </script>
+
+    </body>
 </html>
