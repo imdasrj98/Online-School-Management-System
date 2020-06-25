@@ -20,7 +20,7 @@ This system helps to find student information in just few seconds, checking for 
 7.	Programmedetail (pid, pname)
 # Front End Design
 The front end is made by HTML along with CSS properties for designing purpose and Javascript to make the web application responsive and validate the forms.
-# Back End
+# Back End Design
 In the back end we have used MySQL database for storing all the data. 
 # Server Side Design
 For server side PHP is used. By using php-mysql connectivity configure we can establish connection between front end and back end. It is used to fetch data from backend database and serve them to the front end and also for taking user entered data and them make them available for the back end to store. It is also used for session management.
