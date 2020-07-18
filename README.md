@@ -26,3 +26,5 @@ In the back end we have used MySQL database for storing all the data.
 For server side PHP is used. By using php-mysql connectivity configure we can establish connection between front end and back end. It is used to fetch data from backend database and serve them to the front end and also for taking user entered data and them make them available for the back end to store. It is also used for session management.
 # Scope
 The future scope includes adding more features to the application, Making the application more user friendly and responsive and make an android version of the application.
+# Instructions to run
+Save the Project to any php server provider software like XAMPP or WAMP. Import the .sql file to your phpmyadmin and then start the server and paste the url to your browser localhost:Online-School-Management-System/ you will get the hope page.
